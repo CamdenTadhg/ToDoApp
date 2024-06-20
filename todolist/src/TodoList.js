@@ -1,6 +1,6 @@
 import react, {useState} from 'react';
-import NewTodoForm from './NewTodoForm.jsx';
-import Todo from './Todo.jsx';
+import NewTodoForm from './NewTodoForm.js';
+import Todo from './Todo.js';
 import {v4 as uuid} from 'uuid';
 import React from 'react';
 

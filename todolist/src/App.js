@@ -1,6 +1,5 @@
 import react from 'react'
-import './App.css'
-import TodoList from './TodoList.jsx'
+import TodoList from './TodoList.js'
 
 function App() {
   return (
@@ -9,3 +8,4 @@ function App() {
 }
 
 export default App
+
