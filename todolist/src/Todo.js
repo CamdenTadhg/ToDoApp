@@ -4,7 +4,7 @@ const Todo = ({id, task, deleteTodo}) => {
     return (
         <div>
             {task}
-            <button onClick={() => deleteTodo(id)}>X</button>
+            <button onClick={() => deleteTodo(id)} data-testid={task}>X</button>
         </div>
     )
 };
